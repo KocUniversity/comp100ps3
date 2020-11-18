@@ -1,7 +1,6 @@
-# 6.0001 Problem Set 3
+# COMP100 Problem Set 3
 #
-# The 6.0001 Word Game
-# Created by: Kevin Luu <luuk> and Jenna Wiens <jwiens>
+# The Word Game
 # Modified by: Ege Onat Özsüer
 #
 # Name          : <your name>
