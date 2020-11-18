@@ -5,6 +5,8 @@ The goal of this assignment is to implement a single-player word game. While wor
 
 You will implement a made-up single-player game, inspired by both Scrabble and the Turkish game "Isim-Sehir-Hayvan". The rules of the game are given below.
 
+**IMPORTANT:** Do **not** edit any files other than main.py . If you modify the `data` directory's contents, you might break the code. If you modify the test_ps3.py or test_inputs files you might break the autograder. The autograder is there for you to see if your implementation is working as intended. There will be additional test cases we will use after submission to grade your work.
+
 **Game Rules**
 
 1. The player will be dealt  *HAND_SIZE* number of random letters to play a hand.
@@ -101,7 +103,7 @@ Turn over, your score is: 296
 
 ## Problem 6: Substitution and Playing a Game (5+15 pts)
 
-Implement the `substitute_hand` and `play_game` functions according to their specifications.
+Implement the `substitute_hand`(5 pts) and `play_game`(15 pts) functions according to their specifications.
 For the game, you should use the *HAND_SIZE* constant to determine the number of letters in a hand.
 
 Do not assume that there will always be a set number of letters in a hand! Our goal is to keep the code modular - if you want to try playing your word game with 10 letters or 40 letters you will be able to do it by simply changing the value of *HAND_SIZE*!
