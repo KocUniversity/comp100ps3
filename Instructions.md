@@ -82,7 +82,6 @@ Valid word, current score is: 36`
 You are now ready to begin writing the code that interacts with the player.
 
 Implement the `play_hand` function. This function allows the user to play out a single hand.
-You'll first need to implement the helper function `calculate_handler`, which can be done in less than five lines of code.
 To end the hand early, the player must type "!!" (two exclamation points).
 
 ```
