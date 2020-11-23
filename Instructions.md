@@ -65,7 +65,7 @@ Now we want to allow hands to contain wildcard letters, which will be denoted by
 
 During the game, the player will be able to enter "*" (without quotes) instead of the intended letter.
 
-You need to modify the `deal_hand` function to support always giving one wildcard in each hand. Note that `deal_hand` currently ensures that one third of the letters are vowels and the rest are consonants. Leave the  consonant count intact, and replace one of the vowel slots with the wildcard. You will also need to modify one or more of the constants defined at the top of the file to account for wildcards.
+You need to modify the `deal_hand` function to support always giving one wildcard in each hand. Note that `deal_hand` currently ensures that one third of the letters are vowels and the rest are consonants. Leave the  consonant count intact, and replace one of the vowel slots with the wildcard.
 
 Then you need to modify the `is_valid_word` function to support wildcards. 
 
